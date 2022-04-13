@@ -22,7 +22,7 @@ jobs:
           command: |
             # echo 'Hello World'
             python --version
-            python hello-world
+            python hello-world.py
 workflows:
   Python-Workflow:
     jobs:
