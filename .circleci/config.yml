@@ -19,8 +19,9 @@ jobs:
       - run:
           name: Hello World
           command: |
-            echo 'Hello World'
+            # echo 'Hello World'
             python --version
+            python hello-world
 workflows:
   Python-Workflow:
     jobs:
