@@ -1,5 +1,1 @@
-python-dateutil==1.5
-
-virtualenv==16.3.0
-
 pytest==7.1.1
