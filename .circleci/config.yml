@@ -16,6 +16,7 @@ jobs:
     docker:
       - image: cimg/python:3.10.1
     steps:
+      - checkout
       - run:
           name: Hello World
           command: |
