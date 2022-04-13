@@ -14,4 +14,6 @@ jobs:
           command: python -m pytest
       - persist_to_workspace: # saves the output of your test
           root: ~/project
-          paths: . 
+          paths: .
+      - attach_workspace:
+          at: /tmp/workspace 
