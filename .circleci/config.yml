@@ -20,7 +20,7 @@ jobs:
           name: Hello World
           command: |
             echo 'Hello World'
-            python --v
+            python --version
 workflows:
   Python-Workflow:
     jobs:
