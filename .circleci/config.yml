@@ -23,10 +23,3 @@ jobs:
             # echo 'Hello World'
             python --version
             python hello-world.py
-workflows:
-  Python-Workflow:
-    jobs:
-      - build-test
-      - deploy:
-          requires:
-            - build-test
