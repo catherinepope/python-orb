@@ -2,11 +2,11 @@ version: 2.1
 orbs:
   python: circleci/python@2.0.3
 jobs:
-  build-test: # this can be any name you choose
+  build: 
     docker:
-      - image: cimg/python:3.10.1 # CircleCI convenience image with common Python tools
+      - image: cimg/python:3.10.1
     steps:
-      - checkout # checks out the code from your repo.
+      - checkout
       - python/install-packages:
           pkg-manager: pip
       - run:
